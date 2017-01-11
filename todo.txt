@@ -1,0 +1,52 @@
+Team TrailMix
+Adrian Boylan, Elaina Chung, Vernita Lawren
+APCS1 pd1
+HW57 -- ...and Keeping It Pointed Up
+2017-01-10
+
+
+1. Create Class Character
+   1. Instance Vars
+      1. Energy pool (important!!)
+   1. Methods
+2. Character Subclass: User Team
+   1. IV
+   2. Methods
+      1. Special Attacks
+3. Character Subclass: Monsters
+4. 1st Implementation of woo.java
+   1. IV
+   2. 2D array construction
+   3. 1st Level
+      1. Simplest User Team and Monsters instances mapped out
+      2. All spaces filled with either map spaces or characters, no environment yet.
+   1. Code to test out creating instances of User Team and Monsters
+5. User Team Subclasses:
+   1. Warrior
+      1. Easiest unless we decide to implement more special methods for each type of user character
+   1. Archer
+      1. Some archer-only method
+6. Monsters Subclass:
+   1. Minion
+7. 2nd Implementation of woo.java
+   1. runGame method
+      1. Calls 2D array-mapper method for 1st level
+      2. Adds formation and character choices for team
+      3. Basic combat
+      4. 1 of warrior and 1 minion
+   1. Test previously created methods
+8. User Team Subclass:
+   1. Healer
+      1. Replenish Energy
+      2. Replenish HP
+9. Monsters Subclass:
+   1. Boss
+      1. Possibly has infinite energy
+      2. Special Attack
+10. 3rd (Final?) Implementation of woo.java
+   1. Add level choosing code
+   2. Add levelOrder
+   3. Edit runGame method
+      1. Loop turns
+      2. Randomly select orders, alternating between monsters and user team 
+      3. Allows user to choose which member of their team goes first and which attack/heal(in the case of the healer)
