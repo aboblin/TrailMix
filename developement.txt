@@ -1,1 +1,0 @@
-﻿1/11/17-We created the character class, but we are still figuring out how to implement the move and attack methods.
