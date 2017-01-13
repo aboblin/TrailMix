@@ -11,6 +11,8 @@ public class Character {
     protected int attack;
     final protected int F_ATK; //full attack
     protected int teamOrder;
+    protected int currentX;
+    protected int currentY;
     
     public Character(String nam, int hp, int mvt, int atkrang, int defrang, int atk, int teamOdr){
         name = nam;
@@ -26,15 +28,24 @@ public class Character {
         return health > 0;
     }
     
-    public void move(int x, int y, Object[][] a){
-        //use coordinates from the 2D ArrayList to input
-        
+    public void getCoordinate(int x, int y){
+        currentX = x;
+        currentY = y;
     }
     
-    public void attack(int x, int y, Object[][] a){
+    public void move(int x, int y, ArrayList[][] a){
+        //use coordinates from the 2D ArrayList to input
+        Object placement = a[x][y];
+        a[x][y] = a[currentX][currentY];
+        a[currentX][currentY] = placement;
+        currentX = x;
+        currentY = y;
+    }
+    
+    /* public void attack(int x, int y, ArrayList[][] a){
         //use coordinates from the 2D ArrayList to input
     
-    }
+    } */
     
     public void lowerHP(int healthLost){
         health -= healthLost;

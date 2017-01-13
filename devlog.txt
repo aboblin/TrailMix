@@ -74,6 +74,6 @@ Vernita :: Added instance variables and methods to Character.java
 
 2016-01-12
 --------------------------------------------------------------
-Adrian :: 
+Adrian :: Added Move method to Character.java 
 Elaina :: 
 Vernita :: Added methods and default constructor to Character.java, created class Monster and class User and added default constructor and methods to subclasses in Monster.java and User.java
