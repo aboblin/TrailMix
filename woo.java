@@ -11,7 +11,7 @@ public class woo{
     private int numRounds; //all characters have had their turn
     private int numTurns;
     private boolean gameover;
-	private int viewrules;
+    private int viewrules;
     
     private Character playerone;
     private Character playertwo;
@@ -33,6 +33,7 @@ public class woo{
         }
         isr = new InputStreamReader( System.in );
         in = new BufferedReader( isr );
+	newGame();
     }
         
     //METHODS~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,6 +112,6 @@ public class woo{
         }    
         
         public static void main( String[] args ){
-        
+	    woo whoop = new woo();
         }
 }
