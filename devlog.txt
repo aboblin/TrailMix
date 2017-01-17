@@ -81,5 +81,5 @@ Vernita :: Added methods and default constructor to Character.java, created clas
 2016-01-13 to 2016-01-16
 --------------------------------------------------------------
 Adrian :: debugging Character.java, added woo.java after bug fixes
-Elaina :: 
+Elaina :: added to Monster.java and User.java
 Vernita :: created and added default constructor and methods to subclasses Archer, Knight, Healer, and Boss of classes User and Monster.
