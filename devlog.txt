@@ -66,6 +66,10 @@ yyyy-mm-dd
 <Member> :: <Thing member did.>
 ==============================================================
 
+2016-01-16
+--------------------------------------------------------------
+Adrian :: Added woo.java (after bug fixes)
+
 2016-01-11
 --------------------------------------------------------------
 Adrian :: Added instance variables and methods to Character.java
