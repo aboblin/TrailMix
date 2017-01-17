@@ -19,10 +19,13 @@ public class Character {
     public Character(String nam, int hp, int mvt, int atkrang, int defrang, int atk, int teamOdr){
         name = nam;
         health = hp;
+        F_HEALTH = hp;
         mvtRange = mvt;
         atkRange = atkrang;
         defense = defrang;
+        F_DEF = defrang
         attack = atk;
+        F_ATK = atk;
         teamOrder = teamOdr;
     }
     
