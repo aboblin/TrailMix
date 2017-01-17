@@ -1,15 +1,17 @@
+import java.util.*;
+
 public class Character {
 
     //instance vars
     protected String name;
     protected int health;
-    final protected int F_HEALTH; //full health
+     protected int F_HEALTH; //full health
     protected int mvtRange;
     protected int atkRange;
     protected int defense;
-    final protected int F_DEF; //full defense
+     protected int F_DEF; //full defense
     protected int attack;
-    final protected int F_ATK; //full attack
+     protected int F_ATK; //full attack
     protected int teamOrder;
     protected int currentX;
     protected int currentY;
@@ -28,24 +30,23 @@ public class Character {
         return health > 0;
     }
     
-    public void getCoordinate(int x, int y){
+    public void setCoordinate(int x, int y){
         currentX = x;
         currentY = y;
     }
     
     public void move(int x, int y, ArrayList[][] a){
         //use coordinates from the 2D ArrayList to input
-        Object placement = a[x][y];
+        ArrayList placement = a[x][y];
         a[x][y] = a[currentX][currentY];
         a[currentX][currentY] = placement;
-        currentX = x;
-        currentY = y;
+        setCoordinate(x, y);
     }
     
-    /* public void attack(int x, int y, ArrayList[][] a){
+    public void attack(int x, int y, ArrayList[][] a){
         //use coordinates from the 2D ArrayList to input
     
-    } */
+    }
     
     public void lowerHP(int healthLost){
         health -= healthLost;
@@ -64,13 +65,13 @@ public class Character {
     }
     
     public int getmvtRange(){
-        return mvtRangel
+        return mvtRange;
     }
     
     public int getatkRange(){
         return atkRange;
     }
-    
+    /*
     //normalize method
     public abstract void normalize();
 
@@ -79,5 +80,5 @@ public class Character {
     
     //about method
     public abstract String about();
-    
+    */
 }
