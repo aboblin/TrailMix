@@ -23,7 +23,7 @@ public class Character {
         mvtRange = mvt;
         atkRange = atkrang;
         defense = defrang;
-        F_DEF = defrang
+        F_DEF = defrang;
         attack = atk;
         F_ATK = atk;
         teamOrder = teamOdr;
