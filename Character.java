@@ -5,13 +5,13 @@ public class Character {
     //instance vars
     protected String name;
     protected int health;
-     protected int F_HEALTH; //full health
+    final protected int F_HEALTH; //full health
     protected int mvtRange;
     protected int atkRange;
     protected int defense;
-     protected int F_DEF; //full defense
+    final protected int F_DEF; //full defense
     protected int attack;
-     protected int F_ATK; //full attack
+    final protected int F_ATK; //full attack
     protected int teamOrder;
     protected int currentX;
     protected int currentY;
