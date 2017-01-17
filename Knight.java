@@ -9,12 +9,13 @@ public class Knight extends User {
     public String about() {
         return "Knights have a wider movement range, but can only attack those close to them. Their attacks are very powerful.";
     }
-    
+/*-----------------------------------    
+
     public void specialatkk() {
        defense -= 20;
        attack += 20;
     }
-
+-----------------------------------*/
     //normalatkk: prepares the Knight to perform a normal attack
     //sets defense to default value
     //sets strength to default value
