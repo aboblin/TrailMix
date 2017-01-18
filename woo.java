@@ -5,6 +5,12 @@ import cs1.Keyboard;
 
 public class woo{
 
+    private int level;
+    private Object[][] board;
+    private int numRounds;
+    private int numTurns;
+    private boolean gameover;
+    private int viewrules;
 
     private Character playerone;
     private Character playertwo;
