@@ -1,4 +1,12 @@
- private Character playerone;
+import java.io.*;
+import java.util.*;
+import cs1.Keyboard;
+
+
+public class woo{
+
+
+    private Character playerone;
     private Character playertwo;
     private Character playerthree;
     
