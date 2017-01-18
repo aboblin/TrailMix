@@ -74,7 +74,7 @@ public class Character {
     public int getatkRange(){
         return atkRange;
     }
-    /*
+    
     //normalize method
     public abstract void normalize();
 
@@ -83,5 +83,5 @@ public class Character {
     
     //about method
     public abstract String about();
-    */
+    
 }
