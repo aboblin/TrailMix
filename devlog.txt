@@ -88,4 +88,4 @@ Vernita :: created and added default constructor and methods to subclasses Arche
 ---------------------------------------------------------------
 Adrian :: 
 Elaina :: Added main method and fixed bugs/naming errors
-Vernita :: 
+Vernita :: Debugged woo.java
