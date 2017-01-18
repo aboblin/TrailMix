@@ -1,19 +1,4 @@
-import java.io.*;
-import java.util.*;
-import cs1.Keyboard;
-
-
-public class woo{
-
-    private int level;
-    private Object[][] board;
-    
-    private int numRounds; //all characters have had their turn
-    private int numTurns;
-    private boolean gameover;
-    private int viewrules;
-    
-    private Character playerone;
+ private Character playerone;
     private Character playertwo;
     private Character playerthree;
     
@@ -38,11 +23,11 @@ public class woo{
     }
         
     //METHODS~~~~~~~~~~~~~~~~~~~~~~~~~
-    public void printarray( Object[][] a ){
+    public String printarray( Object[][] a ){
 	String retStr = "";
-        for(String[] i : a){
+        for(Object[] i : a){
 	    retStr +="{";
-	    for(String x : i){
+	    for(Object x : i){
 		retStr += x + ",";
 	    }
 	    retStr = retStr.substring(0,retStr.length()-1);
