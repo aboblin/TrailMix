@@ -67,10 +67,10 @@ public class woo{
         s += "\nPlease choose the class for your first character!";
         //default: knight
         int playerone_class = 1;
-        Character[] school0 = {new User(), new Monster()};
-        s += "\n\t1: Knight: " ;
-        s += "\n\t2: Archer: " ;
-        s += "\n\t3: Healer: " ;
+        Character[] choicep1 = {new User.Knight("Player 1"), new User.Archer("Player 1"), new User.Healer("Player 1")};
+        s += "\n\t1: Knight: " + choicep1[0].about();
+        s += "\n\t2: Archer: " + choicep1[1].about();
+        s += "\n\t3: Healer: " + choicep1[2].about();
         s += "\nSelection: ";
         System.out.println(s);
         
@@ -82,10 +82,10 @@ public class woo{
         s += "\nPlease choose the class for your second character!";
         //default: archer
         int playertwo_class = 2;
-        Character[] school1 = {new User(), new Monster()};
-        s += "\n\t1: Knight: " ;
-        s += "\n\t2: Archer: " ;
-        s += "\n\t3: Healer: " ;
+        Character[] choicep2 = {new User.Knight("Player 2"), new User.Archer("Player 2"), new User.Healer("Player 2")};
+        s += "\n\t1: Knight: " + choicep2[0].about();
+        s += "\n\t2: Archer: " + choicep2[1].about();
+        s += "\n\t3: Healer: " + choicep2[2].about();
         s += "\nSelection: ";
         System.out.println(s);
         
@@ -97,10 +97,10 @@ public class woo{
         s += "\nPlease choose the class for your third character!";
         //default: healer
         int playerthree_class = 3;
-        Character[] school2 = {new User(), new Monster()};
-        s += "\n\t1: Knight: " ;
-        s += "\n\t2: Archer: " ;
-        s += "\n\t3: Healer: " ;
+        Character[] choicep3 = {new User.Knight("Player 3"), new User.Archer("Player 3"), new User.Healer("Player 3")};
+        s += "\n\t1: Knight: " + choicep3[0].about();
+        s += "\n\t2: Archer: " + choicep3[1].about();
+        s += "\n\t3: Healer: " + choicep3[2].about();
         s += "\nSelection: ";
         System.out.println(s);
         
