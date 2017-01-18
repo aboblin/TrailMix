@@ -37,7 +37,19 @@ public class woo{
     }
         
     //METHODS~~~~~~~~~~~~~~~~~~~~~~~~~
-    
+    public void printarray( Object[][] a ){
+	String retStr = "";
+        for(String[] i : a){
+	    retStr +="{";
+	    for(String x : i){
+		retStr += x + ",";
+	    }
+	    retStr = retStr.substring(0,retStr.length()-1);
+	    retStr +="}\n";
+	}
+	return retStr;
+    }
+	
     public void newGame(){
         String s;
         String name = "";
@@ -113,5 +125,6 @@ public class woo{
         
         public static void main( String[] args ){
 	    woo whoop = new woo();
+   	    whoop.printarray(board);
         }
 }
