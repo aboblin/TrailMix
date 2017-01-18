@@ -66,20 +66,26 @@ yyyy-mm-dd
 <Member> :: <Thing member did.>
 ==============================================================
 
-2016-01-11
+2017-01-11
 --------------------------------------------------------------
 Adrian :: Added instance variables and methods to Character.java
 Elaina :: Added instance variables and methods to Character.java
 Vernita :: Added instance variables and methods to Character.java
 
-2016-01-12
+2017-01-12
 --------------------------------------------------------------
 Adrian :: Added Move method to Character.java 
 Elaina :: Added setCoordinate method to Character.java
 Vernita :: Added methods and default constructor to Character.java, created class Monster and class User and added default constructor and methods to subclasses in Monster.java and User.java
 
-2016-01-13 to 2016-01-16
+2017-01-13 to 2016-01-16
 --------------------------------------------------------------
 Adrian :: debugging Character.java, added woo.java after bug fixes
 Elaina :: added to Monster.java and User.java
 Vernita :: created and added default constructor and methods to subclasses Archer, Knight, Healer, and Boss of classes User and Monster.
+
+2017-01-17
+---------------------------------------------------------------
+Adrian :: 
+Elaina :: Added main method and fixed bugs/naming errors
+Vernita :: 
