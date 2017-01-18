@@ -11,7 +11,7 @@ public class Healer extends User {
     }
     
     public void replenishEP() {
-       energypool = R_ENERGYPOOL;
+     //  energypool = R_ENERGYPOOL;
     }
 
     //healPlayer: player's defense, attack, and health is healed
