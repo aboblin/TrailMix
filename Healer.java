@@ -1,8 +1,8 @@
-public class Archer extends User {
+public class Healer extends User {
 
     //constructor
-    public Archer(String newName) {
-        super("Archer", 150, 6, 5, 5, 0, 3);
+    public Healer(String newName) {
+        super("Healer", 150, 6, 5, 5, 0, 3);
         //name, health, mvtrange, atkrange, defense, attack, teamOrder
     }
     
