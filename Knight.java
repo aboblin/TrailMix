@@ -19,7 +19,7 @@ public class Knight extends User {
     //normalatkk: prepares the Knight to perform a normal attack
     //sets defense to default value
     //sets strength to default value
-    public void normalatkk() {
+    public void normalatk() {
         defense = F_DEFENSE;
         strength = F_ATTACK;
     }
