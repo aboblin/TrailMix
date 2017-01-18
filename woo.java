@@ -26,7 +26,7 @@ public class woo{
         }
         isr = new InputStreamReader( System.in );
         in = new BufferedReader( isr );
-	printarray(board);
+	System.out.println(printarray(board));
 	newGame();
     }
         
