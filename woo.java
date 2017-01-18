@@ -33,6 +33,7 @@ public class woo{
         }
         isr = new InputStreamReader( System.in );
         in = new BufferedReader( isr );
+	printarray(board);
 	newGame();
     }
         
@@ -125,6 +126,5 @@ public class woo{
         
         public static void main( String[] args ){
 	    woo whoop = new woo();
-   	    whoop.printarray(board);
         }
 }
