@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Character {
+public abstract class Character {
 
     //instance vars
     protected String name;
