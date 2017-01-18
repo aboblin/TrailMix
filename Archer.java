@@ -10,7 +10,7 @@ public class Archer extends User {
         return "Archers have a smaller movement range, but can attack accurately long distance. Their defense is not as high, however";
     }
 /*-----------------------------------    
-    public void specialatkk() {
+    public void specialatk() {
        defense -= 20;
        attack += 20;
     }
@@ -18,7 +18,7 @@ public class Archer extends User {
     //normalatkk: prepares the Archer to perform a normal attack
     //sets defense to default value 40
     //sets strength to default value 100
-    public void normalatkk() {
+    public void normalatk() {
         defense = F_DEFENSE;
         attack = F_ATTACK;
     }
