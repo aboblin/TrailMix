@@ -1,0 +1,62 @@
+[-----][--1--][--2--][--3--][--4--][--5--]
+[--1--][arch-][-----][-----][-----][dwrf1]
+[--2--][-----][-----][-----][wolf2][-----]
+[--3--][heal-][-----][-----][-----][-----]
+[--4--][-----][kght-][-----][-----][ogre3]
+[--5--][-----][-----][-----][-----][-----]
+
+Who would you like to go first?
+1. Knight on 2,4
+2. Archer on 1,1
+3. Healer on 1,3
+Selection: 1
+
+Order for this round: Knight on 2,4 > Archer on 1,1 > Healer on 1,3
+Is this okay? (y/n) y
+
+Energy pool is replenished.
+
+MONSTER TEAM GOES FIRST // USER TEAM GOES FIRST
+
+MONSTER TEAM TURN
+DWRF1 moves to 3,1
+//no battle so next turn
+
+[-----][--1--][--2--][--3--][--4--][--5--]
+[--1--][arch2][-----][dwrf1][-----][-----]
+[--2--][-----][-----][-----][wolf2][-----]
+[--3--][heal3][-----][-----][-----][-----]
+[--4--][-----][kght1][-----][-----][ogre3]
+[--5--][-----][-----][-----][-----][-----]
+
+USER TEAM TURN
+Where would you like your knight on 2,4 to move to? 4,4
+
+Knight moves to 4,4
+
+[-----][--1--][--2--][--3--][--4--][--5--]
+[--1--][arch2][-----][dwrf1][-----][-----]
+[--2--][-----][-----][-----][wolf2][-----]
+[--3--][heal3][-----][-----][-----][-----]
+[--4--][-----][-----][-----][kght1][ogre3]
+[--5--][-----][-----][-----][-----][-----]
+
+Who would you like to attack in your attack range?
+0. do not attack
+1. ogre
+Selection: 1
+
+KNIGHT initiates battle with OGRE
+
+ENERGY POOL: 50/50
+KNIGHT: HP=50/60 DEF=10/10 ATK=10/10
+OGRE: HP=80/80 DEF=20/20 ATK=15/15
+
+How would your knight like to fight?
+1. Normal attack
+2. Special attack
+Selection: 1
+
+KNIGHT uses NORMAL ATTACK on OGRE
+OGRE HP -10
+OGRE DEF -2
