@@ -2,7 +2,16 @@ public class Healer extends User {
 
     //constructor
     public Healer(String newName) {
-        super("Healer", 150, 6, 5, 5, 0, 3);
+        name = newName;
+        F_HEALTH = 100;
+        health = 100;
+        mvtrange = 6;
+        atkrange = 5;
+        defense = 5 
+        F_DEF = 5
+        attack = 0 
+        F_ATK = 0
+        //super("Healer", 150, 6, 5, 5, 0, 3);
         //name, health, mvtrange, atkrange, defense, attack, teamOrder
     }
     
