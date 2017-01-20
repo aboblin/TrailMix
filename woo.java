@@ -21,13 +21,18 @@ public class woo{
     
     //DEFAULT CONSTRUCTOR
     public woo(){
-        board = new Object[5][5];    
+        board = new Object[6][6];    
         numRounds = 0;
         numTurns = 0;
         gameover = false;
-        for (int i =  0; i < board.length; i++){
+        for (int i =  0; i < board.length; i++){'
+		board[i] = "[--" + i + "--]"
             for (int j = 0; j < board[i].length; j++){
-                board[i][j] = "x";
+		if(i == 1){
+			board[i][j] = "[--" + j + "--]";
+		}
+		else{
+                	board[i][j] = "[-----]";
             }
         }
         isr = new InputStreamReader( System.in );
