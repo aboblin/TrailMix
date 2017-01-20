@@ -25,7 +25,7 @@ public class woo{
         numRounds = 0;
         numTurns = 0;
         gameover = false;
-        for (int i =  0; i < board.length; i++){'
+        for (int i =  0; i < board.length; i++){
 		board[i] = "[--" + i + "--]"
             for (int j = 0; j < board[i].length; j++){
 		if(i == 1){
