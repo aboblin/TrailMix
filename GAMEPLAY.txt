@@ -48,15 +48,19 @@ Selection: 1
 
 KNIGHT initiates battle with OGRE
 
-ENERGY POOL: 50/50
+ENERGY POOL: 25/25
 KNIGHT: HP=50/60 DEF=10/10 ATK=10/10
 OGRE: HP=80/80 DEF=20/20 ATK=15/15
 
 How would your knight like to fight?
-1. Normal attack
-2. Special attack
+1. Normal attack (-2 EP)
+2. Special attack (-4 EP)
 Selection: 1
 
 KNIGHT uses NORMAL ATTACK on OGRE
 OGRE HP -10
 OGRE DEF -2
+
+ENERGY POOL: 23/25
+KNIGHT: HP=50/60 DEF=10/10 ATK=10/10
+OGRE: HP=70/80 DEF=18/20 ATK=15/15
