@@ -10,6 +10,7 @@ public class Archer extends User {
         defense = 20 
         F_DEF = 20 
         attack = 20 + (int) Math.random() * 45; 
+        F_ATK = 20 + (int) Math.random() * 45; 
         //super("Archer", 150, 3, 5, 20, 20+ (int) Math.random()*45, 2);
         //name, health, mvtrange, atkrange, defense, attack, teamOrder
     }
