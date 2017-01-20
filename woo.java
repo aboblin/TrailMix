@@ -33,6 +33,7 @@ public class woo{
 		}
 		else{
                 	board[i][j] = "[-----]";
+		}
             }
         }
         isr = new InputStreamReader( System.in );
