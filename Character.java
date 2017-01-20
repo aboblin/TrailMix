@@ -15,7 +15,7 @@ public abstract class Character {
     protected int teamOrder;
     protected int currentX;
     protected int currentY;
-    
+    /*---------------------------------
     public Character(String nam, int hp, int mvt, int atkrang, int defrang, int atk, int teamOdr){
         name = nam;
         health = hp;
@@ -28,7 +28,7 @@ public abstract class Character {
         F_ATK = atk;
         teamOrder = teamOdr;
     }
-    
+    ----------------------------------*/
     public boolean isAlive(){
         return health > 0;
     }
