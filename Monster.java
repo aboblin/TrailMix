@@ -1,7 +1,16 @@
 public class Monster extends Character{
 
     public Monster(){
-        super("defaultMonster", 150, 2, 1, 20, 20+ (int) Math.random()*45, 0);
+        name = "defaultMonster";
+        F_HEALTH = 150;
+        health = 150;
+        mvtrange = 2;
+        atkrange = 1;
+        defense = 20 
+        F_DEF = 20 
+        attack = 20 + (int) Math.random() * 45; 
+        F_ATK = 20 + (int) Math.random() * 45; 
+        //super("defaultMonster", 150, 2, 1, 20, 20+ (int) Math.random()*45, 0);
     }
 
     public Monster(String Monsternum){
