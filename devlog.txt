@@ -97,5 +97,5 @@ Vernita ::
 2017-01-18
 ----------------------------------------------------------------
 Adrian ::
-Elaina ::
+Elaina :: Edited the constructors for Monster, Archer, Knight, Healer, User, and Boss.
 Vernita ::
