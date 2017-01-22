@@ -25,20 +25,9 @@ public class woo{
         numRounds = 0;
         numTurns = 0;
         gameover = false;
-        for (int i =  0; i < board.length; i++){
-		board[i] = "[--" + i + "--]"
-            for (int j = 0; j < board[i].length; j++){
-		if(i == 1){
-			board[i][j] = "[--" + j + "--]";
-		}
-		else{
-                	board[i][j] = "[-----]";
-		}
-            }
-        }
         isr = new InputStreamReader( System.in );
         in = new BufferedReader( isr );
-	System.out.println(printarray(board));
+	crtBoard();
 	newGame();
     }
         
