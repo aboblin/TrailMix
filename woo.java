@@ -43,17 +43,18 @@ public class woo{
     }
         
     //METHODS~~~~~~~~~~~~~~~~~~~~~~~~~
-    public String printarray( Object[][] a ){
-	String retStr = "";
-        for(Object[] i : a){
-	    retStr +="{";
-	    for(Object x : i){
-		retStr += x + ",";
+    public void crtBoard(){
+ 	for (int i =  0; i < board.length; i++){
+            for (int j = 0; j < board[i].length; j++){
+		if(i == 1){
+			board[i][j] = "[--" + j + "--]";
+		}
+		else{
+                	board[i][j] = "[-----]";
+		}
 	    }
-	    retStr = retStr.substring(0,retStr.length()-1);
-	    retStr +="}\n";
-	}
-	return retStr;
+		board[i][0] = "[--" + i + "--]"
+        }
     }
 	
     public void newGame(){
