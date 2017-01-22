@@ -53,10 +53,21 @@ public class woo{
                 	board[i][j] = "[-----]";
 		}
 	    }
-		board[i][0] = "[--" + i + "--]"
+		board[i][0] = "[--" + i + "--]";
         }
     }
 	
+    public void print(Object[][] a) 
+    { 
+	for(Object r[]: a){
+	    for(Object s: r){
+		System.out.print(s);
+	    }
+	    System.out.println();
+	}
+    }
+	
+    
     public void newGame(){
         String s;
         String name = "";
