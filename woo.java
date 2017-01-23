@@ -131,9 +131,9 @@ public class woo{
    	String s;
     	s += "\n Where would you like your " + playerone.getName() + " ?";
    	s += "\n Row: "
-    	x = Integer.parseInt( in.readLine() );
+    	int x = Integer.parseInt( in.readLine() );
     	s += "\n Column: "
-    	y = Integer.parseInt( in.readLine() );
+    	int y = Integer.parseInt( in.readLine() );
     	playerone.setCoordinate(x,y); //sets currentX and currentY (the coordinates)
     	board[playerone.getX][playerone.getY] = "[" + playerone.getMark() + "-]";//makes a marker for where the character is on the board
 	     
