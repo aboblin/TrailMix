@@ -101,6 +101,35 @@ public abstract class Character {
         health -= healthLost;
     }
 
+    //prints selection of monsters in attack range
+    public static class inmvtRange(Character player){
+        
+    	//helper method isinmvtRange returns true if in movement range
+	//this method loops to check for each monster that is alive's posistion and then System.out.println's the choice to fight them
+    	int numinrange = 0;
+    	System.out.println("0. do no attack");
+    
+    	for(int i; i < numMon; i++){
+		if (player.isinmvtRange(/*name of monster*/)){
+			numinrange++;
+			System.out.println( numinrange + ". " + /*monster name*/);
+		}
+	}
+    }
+            
+            
+    //helper function for ismvtRange
+    //checks monsters position and compares it to the player's attack range
+    public boolean isinmvtRange(int x, int y,){
+	for(int i; i < this.getmvtRange(); i++){
+		if(this.getX() == x && this.getY() + i == y)
+			return true;
+		if(this.getX() + i == x && this.getY() == y){
+			return true;
+	}
+        return false;
+     }          
+
     //about method (abstract)
     public abstract String about();
     
