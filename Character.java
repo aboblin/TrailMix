@@ -81,11 +81,10 @@ public abstract class Character {
         currentY = y;
     }
     
-    public void move(int x, int y, Object[][] a){
+    public void move(int x, int y){
         //use coordinates from the 2D ArrayList to input
-        ArrayList placement = a[x][y];
-        a[x][y] = a[currentX][currentY];
-        a[currentX][currentY] = placement;
+        board[x][y] = "[" + this.getMark() + "-]";
+        board[currentX][currentY] = "[-----]";
         setCoordinate(x, y);
     }
     
