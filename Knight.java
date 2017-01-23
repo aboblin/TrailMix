@@ -1,4 +1,4 @@
-public class Knight extends User {
+public abstract class Knight extends User {
 
     //constructor
     public Knight(String newName) {
