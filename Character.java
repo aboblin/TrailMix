@@ -90,8 +90,12 @@ public abstract class Character {
     }
     
     public void attack(Character c){
-        //use coordinates from the 2D ArrayList to input
-    	c.lowerHP(attack);
+	int damage = (int)((str * dmg) - c.getDefense());
+	if ( damage < 0 ){
+	    damage = 0;
+	}
+	c.lowerHP(damage);
+	return damage;
     }
     
     public void lowerHP(int healthLost){
