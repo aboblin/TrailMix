@@ -1,4 +1,4 @@
-public class Boss extends Monster {
+public abstract class Boss extends Monster {
 
     //constructor
     public Boss(String newName) {
