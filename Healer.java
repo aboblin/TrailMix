@@ -1,8 +1,9 @@
 public abstract class Healer extends User {
 
     //constructor
-    public Healer(String newName) {
-        name = newName;
+    public Healer() {
+        name = "Healer";
+        marker = "heal";
         F_HEALTH = 100;
         health = 100;
         mvtrange = 6;
