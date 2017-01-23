@@ -31,6 +31,7 @@ public class woo{
         in = new BufferedReader( isr );
 	crtBoard();
 	newGame();
+	formation();
     }
         
     //METHODS~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -129,7 +130,7 @@ public class woo{
         }//end of newGame
         
      public void formation(){
-    	print();
+    	print(board);
    	String s;
     	s += "\n Where would you like your " + playerone.getName() + " ?";
    	s += "\n Row: "
