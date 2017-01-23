@@ -46,6 +46,13 @@ public abstract class Character {
         return atkRange;
     }
 	
+    public int getCurrentX(){
+	return currentX;
+    }
+    public int getCurretnY(){
+        return currentY;
+    }
+	
     //Mutator Methods	
     public int setDef(int Def){
 	defense = Def;
