@@ -1,8 +1,9 @@
 public abstract class Archer extends User {
 
     //constructor
-    public Archer(String newName) {
-        name = newName;
+    public Archer() {
+        name = "Archer";
+        marker = "arch";
         F_HEALTH = 150;
         health = 150;
         mvtrange = 3;
