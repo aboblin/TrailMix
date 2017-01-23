@@ -89,13 +89,21 @@ Vernita :: created and added default constructor and methods to subclasses Arche
 Adrian :: 
 Elaina :: Added main method and fixed bugs/naming errors
 Vernita :: Debugged woo.java
+
 2017-01-18
 ---------------------------------------------------------------
 Adrian :: 
 Elaina :: Made User.java abstract and edited the methods.
-Vernita ::
-2017-01-18
+Vernita :: Created gameplay for terminal, debugged newGame in woo.java
+
+2017-01-20
+----------------------------------------------------------------
+Adrian :: Create method for 2D array to show placement of characters
+Elaina :: Edited the constructors for Monster, Archer, Knight, Healer, User, and Boss, Create method for 2D array to show placement of characters
+Vernita :: Create method for 2D array to show placement of characters
+
+2017-01-22
 ----------------------------------------------------------------
 Adrian ::
-Elaina :: Edited the constructors for Monster, Archer, Knight, Healer, User, and Boss.
-Vernita ::
+Elaina :: 
+Vernita :: Created method for playRound, playTurn, battle in woo.java, created methods isinmvtRange in Character, updated woo main method.
