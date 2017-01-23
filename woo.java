@@ -126,9 +126,31 @@ public class woo{
         
         }//end of newGame
         
-        public void roundOrder(){
-       
-        }    
+     public void formation(){
+    	print();
+   	String s;
+    	s += "\n Where would you like your " + playerone.getName() + " ?";
+   	s += "\n Row: "
+    	x = Integer.parseInt( in.readLine() );
+    	s += "\n Column: "
+    	y = Integer.parseInt( in.readLine() );
+    	playerone.setCoordinate(x,y);
+    	board[playerone.getX][playerone.getY] = "[" + playerone.getMark() + "-]"; 
+    	s += "\n Where would you like your " + playertwo.getName() + " ?";
+    	s += "\n Row: "
+    	x = Integer.parseInt( in.readLine() );
+    	s += "\n Column: "
+    	y = Integer.parseInt( in.readLine() );
+    	playertwo.setCoordinate(x,y);
+    	board[playertwo.getX][playertwo.getY] = "[" + playertwo.getMark() + "-]";
+    	s += "\n Where would you like your " + playerthree.getName() + " ?";
+    	s += "\n Row: "
+    	x = Integer.parseInt( in.readLine() );
+    	s += "\n Column: "
+    	y = Integer.parseInt( in.readLine() );
+    	playerthree.setCoordinate(x,y);
+    	board[playerthree.getX][playerthree.getY] = "[" + playerthree.getMark() + "-]";
+    }
         
         public static void main( String[] args ){
 	    woo whoop = new woo();
