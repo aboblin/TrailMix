@@ -46,10 +46,10 @@ public abstract class Character {
         return atkRange;
     }
 	
-    public int getCurrentX(){
+    public int getX(){
 	return currentX;
     }
-    public int getCurretnY(){
+    public int getY(){
         return currentY;
     }
 	
