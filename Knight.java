@@ -1,8 +1,9 @@
 public abstract class Knight extends User {
 
     //constructor
-    public Knight(String newName) {
-        name = newName;
+    public Knight() {
+        name = "Knight";
+        marker = "knght";
         F_HEALTH = 200;
         health = 200;
         mvtrange = 2;
