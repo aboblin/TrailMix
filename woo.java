@@ -15,7 +15,9 @@ public class woo{
     private Character playerone;
     private Character playertwo;
     private Character playerthree;
-    
+    private int numPlayers;
+    private int numbMon;
+	
     private InputStreamReader isr;
     private BufferedReader in;
     
