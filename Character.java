@@ -3,7 +3,7 @@ import java.util.*;
 public abstract class Character {
 
     //instance vars
-    protected String name;
+    protected String name, marker;
     protected int health, mvtRange, atkRange, attack, defense, teamOrder, currentX, currentY;
     final protected int F_HEALTH; //full health
     final protected int F_DEF; //full defense
