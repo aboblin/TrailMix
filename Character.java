@@ -53,6 +53,10 @@ public abstract class Character {
         return currentY;
     }
 	
+    public String getMark(){
+	return marker;
+    }
+	
     //Mutator Methods	
     public int setDef(int Def){
 	defense = Def;
