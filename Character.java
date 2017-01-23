@@ -9,15 +9,31 @@ public abstract class Character {
     final protected int F_DEF; //full defense
     final protected int F_ATK; //full attack
 	
-	//Accessor Methods	
+    //Accessor Methods	
     public int getHealth(){
         return health;
     }
     
+    public int getFullHealth(){
+	return F_HEALTH;
+    }
+
     public int getDef(){
         return defense;
     }
     
+    public int getFullDef(){
+	return F_DEF;
+    }
+
+    public int getAttack(){
+	return attack;
+    }
+
+    public int getFullAtk(){
+	return F_ATK;
+    }
+
     public int getOrder(){
         return teamOrder;
     }
@@ -30,20 +46,20 @@ public abstract class Character {
         return atkRange;
     }
 	
-	//Mutator Methods	
-	public int setDef(int Def){
-		defense = Def;
-	}
-    
-	public int setAtk(int Atk){
-		attack = Atk;
-	}	
+    //Mutator Methods	
+    public int setDef(int Def){
+	defense = Def;
+    }
+
+    public int setAtk(int Atk){
+	attack = Atk;
+    }	
 	
-	public int setOrder(int placement){
-		teamOrder = placement;
-	}
+    public int setOrder(int placement){
+	teamOrder = placement;
+    }
 	
-	//Other Methods
+    //Other Methods
 
     public boolean isAlive(){
         return health > 0;
