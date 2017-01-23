@@ -134,8 +134,9 @@ public class woo{
     	x = Integer.parseInt( in.readLine() );
     	s += "\n Column: "
     	y = Integer.parseInt( in.readLine() );
-    	playerone.setCoordinate(x,y);
-    	board[playerone.getX][playerone.getY] = "[" + playerone.getMark() + "-]"; 
+    	playerone.setCoordinate(x,y); //sets currentX and currentY (the coordinates)
+    	board[playerone.getX][playerone.getY] = "[" + playerone.getMark() + "-]";//makes a marker for where the character is on the board
+	     
     	s += "\n Where would you like your " + playertwo.getName() + " ?";
     	s += "\n Row: "
     	x = Integer.parseInt( in.readLine() );
@@ -143,6 +144,7 @@ public class woo{
     	y = Integer.parseInt( in.readLine() );
     	playertwo.setCoordinate(x,y);
     	board[playertwo.getX][playertwo.getY] = "[" + playertwo.getMark() + "-]";
+	     
     	s += "\n Where would you like your " + playerthree.getName() + " ?";
     	s += "\n Row: "
     	x = Integer.parseInt( in.readLine() );
