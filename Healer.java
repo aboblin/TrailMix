@@ -1,4 +1,4 @@
-public class Healer extends User {
+public abstract class Healer extends User {
 
     //constructor
     public Healer(String newName) {
